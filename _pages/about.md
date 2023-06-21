@@ -28,5 +28,5 @@ Fellow (AI and Metaverse), April 2020 - July 2020 -->
 
 Selected Awards
 ======
-- Outstanding Undergraduate in Researcher Prize, 2023
+- Outstanding Undergraduate Researcher Prize, 2023
 - Certificate of Distinction in the AI Focus Area, 2022
