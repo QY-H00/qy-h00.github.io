@@ -8,21 +8,16 @@ redirect_from:
   - /about.html
 ---
 
- I'm a year 1 PhD Student in School of Computing at National University of Singapore, advised by Prof [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours (Highest Distinction) Bachelor degree majoring in Computer Science from National University of Singapore.
+ I'm a year 1 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Prof [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours (Highest Distinction) Bachelor degree majoring in the same faculty. My research interest is to use computer vision to build connection between human being and aritifical intelligence, including pose estimation and deep neural network understanding.
 
-My research interest is to use computer vision to build connection between human being and aritifical intelligence, including deep neural network understanding / interpretability and human / hand pose estimation. If you are interested in my research, please contact me.
+Apart from research, I'm also interested in cutting-edge start-up and ventural captial. I founded company Smart Construction Cloud working with [DingTalk](https://www.dingtalk.com/en) and [Forwe](https://www.forwe.vip/) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I work as a Fellow on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
 
 Publications
 ======
-<ul>
-  <li>[Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
+- [**Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023**](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
   Qiyuan He* Linlin Yang* Kerui Gu Qiuxia Lin Angela Yao
-  </li>
-</ul>
 
 Selected Awards
 ======
-<ul>
-  <li>Outstanding Undergraduate in Researcher Prize, 2023</li>
-  <li>Certificate of Distinction in the AI Focus Area, 2022</li>
-</ul>
+- Outstanding Undergraduate in Researcher Prize, 2023
+- Certificate of Distinction in the AI Focus Area, 2022
