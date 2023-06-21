@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "He Qiyuan's Home Page"
 title_separator          : "-"
 name                     : &name "He Qiyuan"
 description              : &description "Vision between human & AI"
@@ -178,9 +178,9 @@ kramdown:
 #   teaching:
 #     output: true
 #     permalink: /:collection/:path/
-#   publications:
-#     output: true
-#     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
 #   portfolio:
 #     output: true
 #     permalink: /:collection/:path/
