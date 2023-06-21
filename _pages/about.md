@@ -10,7 +10,7 @@ redirect_from:
 
  I'm a year 1 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours (Highest Distinction) Bachelor degree majoring in the same faculty. My research interest is to use computer vision to build connection between human being and aritifical intelligence, including pose estimation and deep neural network understanding.
 
-Apart from research, I'm also interested in cutting-edge start-up and ventural captial. I founded company SmartCon working with [DingTalk](https://www.dingtalk.com/en) and [Forwe](https://www.forwe.vip/) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I work as a Fellow working on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
+Apart from research, I'm also interested in cutting-edge start-up and ventural captial. I founded company SmartNail working with [DingTalk](https://www.dingtalk.com/en) and [Forwe](https://www.forwe.vip/) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I work as a Fellow working on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
 
 Publications
 ======
@@ -19,7 +19,7 @@ Publications
 
 Experiences
 ======
-- SmartCon  
+- SmartNail  
 Chief Executive Officer, July 2021 - Present
 - National University of Singapore ([CVML@NUS](https://cvml.comp.nus.edu.sg/))  
 Undergrad Research Assistant, July 2020 – April 2021
