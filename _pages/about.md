@@ -15,12 +15,9 @@ My research interest is to use computer vision to build connection between human
 Publications
 ======
 <ul>
-  <li>**Analyzing and Diagnosing Pose Estimation With Attributions**
+  <li>[<b>Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023</b>](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf) 
   Qiyuan He* Linlin Yang* Kerui Gu Qiuxia Lin Angela Yao
   </li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
 </ul>
 
 Selected Awards
