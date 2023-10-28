@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
- I'm a year 1 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours Bachelor degree with Highest Distinction majoring in computer science from the same faculty. My research interest is to use computer vision to build connection between human being and aritifical intelligence, including pose estimation and deep neural network understanding.
+ I'm a year 1 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours Bachelor degree with Highest Distinction majoring in computer science from the same faculty. My research interest is mechanism of deep learning towards trustworthy AI. Currently I'm working on the explanability, out-of-distribution and human pose estimation.
 
-Apart from research, I'm also interested in cutting-edge technology startups and ventural captial. I founded company SmartNail working with [DingTalk](https://www.dingtalk.com/en) and [Forwe](https://www.forwe.vip/) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I was a Fellow working on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
+Apart from research, I'm also interested in cutting-edge technology startups and ventural captial. I founded company HuiJian Cloud working with [DingTalk](https://www.dingtalk.com/en) and [Forwe](https://www.forwe.vip/) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I was a Fellow working on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
 
 Publications
 ======
@@ -28,5 +28,6 @@ Fellow (AI and Metaverse), April 2020 - July 2020 -->
 
 Selected Awards
 ======
+- NUS Research Incentive Award, 2023
 - Outstanding Undergraduate Researcher Prize, 2023
 - Certificate of Distinction in the AI Focus Area, 2022
