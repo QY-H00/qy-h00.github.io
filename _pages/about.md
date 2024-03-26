@@ -23,6 +23,7 @@ Publications
   Qiyuan He*,Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
 
 ![Alt text](images/publication/poseig.png)
+
 <!-- Experiences
 ======
 - SmartNail  
