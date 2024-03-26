@@ -17,11 +17,12 @@ Publications
 - [**PAID: Prompt-guided Attention Interpolation of Text-to-Image Diffusion, Preprint 2024**](https://qy-h00.github.io/attention-interpolation-diffusion/)  
   Qiyuan He, Jinghao Wang, Ziwei Liu, Angela Yao
 
-![Alt text](images/Pikachu_Girl.png)
+![Alt text](images/publication/paid.png)
 
 - [**Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023**](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
   Qiyuan He*,Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
 
+![Alt text](images/publication/poseig.png)
 <!-- Experiences
 ======
 - SmartNail  
