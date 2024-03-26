@@ -20,7 +20,7 @@ Publications
 ![Alt text](images/publication/paid.png)
 
 - [**Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023**](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
-  Qiyuan He*,Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
+  Qiyuan He*, Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
 
 ![Alt text](images/publication/poseig.png)
 
