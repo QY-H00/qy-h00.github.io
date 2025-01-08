@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
- I'm a year 1 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours Bachelor degree with Highest Distinction majoring in computer science from the same faculty. My research focuses on enhancing the controllability and our understanding of deep learning models, particularly in how they manage and interpret data. Presently, I am engaged in working on image generative models and data-centric AI.
+ I'm a year 2 PhD Student in School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I received my Honours Bachelor degree with Highest Distinction majoring in computer science from the same faculty. My research focuses on enhancing the controllability and our understanding of deep learning models, particularly in how they manage and interpret data. Presently, I am engaged in working on visual generation and explainable AI.
 
 Apart from research, I'm also interested in cutting-edge technology startups and ventural captial. I founded company HuiJian Cloud working with [DingTalk](https://www.dingtalk.com/en) to serve small / medium-sized construction enterprises with digital transformation solution. Prior to it, I was a Fellow working on the sector of AI and Metaverse in [MiraclePlus (former YC China)](https://www.miracleplus.com/en/).
 
