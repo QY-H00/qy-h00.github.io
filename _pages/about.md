@@ -19,6 +19,11 @@ Publications
 
 ![Alt text](images/publication/paid.png)
 
+- [**EvA: Erasing Spurious Correlations with Activations, ICLR 2025**](https://openreview.net/forum?id=zKvrOOBouT&referrer=%5Bthe%20profile%20of%20Qiyuan%20He%5D(%2Fprofile%3Fid%3D~Qiyuan_He2))  
+  Qiyuan He, Kai Xu, Angela Yao
+
+![Alt text](images/publication/eva.png)
+
 - [**Analyzing and Diagnosing Pose Estimation With Attributions, CVPR 2023**](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
   Qiyuan He*, Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
 
