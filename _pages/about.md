@@ -14,7 +14,7 @@ Apart from research, I'm also interested in cutting-edge technology startups and
 
 Publications
 ======
-- [**PAID: Prompt-guided Attention Interpolation of Text-to-Image Diffusion, NeurIPS 2024**](https://qy-h00.github.io/attention-interpolation-diffusion/)  
+- [**AID: Attention Interpolation of Text-to-Image Diffusion, NeurIPS 2024**](https://qy-h00.github.io/attention-interpolation-diffusion/)  
   Qiyuan He, Jinghao Wang, Ziwei Liu, Angela Yao
 
 ![Alt text](images/publication/paid.png)
