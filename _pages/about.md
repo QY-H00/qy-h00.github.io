@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: ""
+excerpt: "PhD student at NUS researching visual generative models"
 author_profile: true
 redirect_from: 
   - /about/
