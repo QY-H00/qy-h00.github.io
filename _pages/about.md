@@ -23,12 +23,23 @@ Publications
 
 <div class="publication">
   <div class="pub-image">
-    <img src="images/publication/rear.png" alt="Conceptrol">
+    <img src="images/publication/infotok.png" alt="InfoTok">
+  </div>
+  <div class="pub-content">
+    <strong>(Coming Soon) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
+    Haotian Ye*, <strong>Qiyuan He*</strong>, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu<br>
+    <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
+  </div>
+</div>
+
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/rear.png" alt="reAR">
   </div>
   <div class="pub-content">
     <strong>(Preprint 2025) Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
     <strong>Qiyuan He</strong>, Yicong Li, Haotian Ye, Jinghao Wang, Xinyao Liao, Pheng-Ann Heng, Stefano Ermon, James Zou, Angela Yao<br>
-    <a href="https://arxiv.org/abs/2510.04450">paper</a>
+    <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
   </div>
 </div>
 
@@ -50,7 +61,7 @@ Publications
   <div class="pub-content">
     <strong>(Preprint 2025) Conceptrol: Concept Control of Zero-shot Personalized Image Generation</strong><br>
     <strong>Qiyuan He</strong>, Angela Yao<br>
-    <a href="https://arxiv.org/abs/2503.06568">paper</a>
+    <!-- <a href="https://arxiv.org/abs/2503.06568">paper</a> -->
   </div>
 </div>
 
@@ -61,7 +72,7 @@ Publications
   <div class="pub-content">
     <strong>(NeurIPS 2024) AID: Attention Interpolation of Text-to-Image Diffusion</strong><br>
     <strong>Qiyuan He</strong>, Jinghao Wang, Ziwei Liu, Angela Yao<br>
-    <a href="https://qy-h00.github.io/attention-interpolation-diffusion/">project page</a>
+    <!-- <a href="https://qy-h00.github.io/attention-interpolation-diffusion/">project page</a> -->
   </div>
 </div>
 
@@ -72,7 +83,7 @@ Publications
   <div class="pub-content">
     <strong>(ICLR 2025) EvA: Erasing Spurious Correlations with Activations</strong><br>
     <strong>Qiyuan He</strong>, Kai Xu, Angela Yao<br>
-    <a href="https://openreview.net/forum?id=zKvrOOBouT">paper</a>
+    <!-- <a href="https://openreview.net/forum?id=zKvrOOBouT">paper</a> -->
   </div>
 </div>
 
@@ -83,7 +94,7 @@ Publications
   <div class="pub-content">
     <strong>(CVPR 2023) Analyzing and Diagnosing Pose Estimation With Attributions</strong><br>
     <strong>Qiyuan He</strong>*, Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao<br>
-    <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf">paper</a>
+    <!-- <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf">paper</a> -->
   </div>
 </div>
 
