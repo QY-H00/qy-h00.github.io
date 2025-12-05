@@ -21,39 +21,76 @@ Please feel free to [contact me](mailto:qhe@u.nus.edu) if you are interested in 
 Publications
 ======
 
-**Conceptrol: Concept Control of Zero-shot Personalized Image Generation**  
-*Preprint 2025* · [Paper](https://arxiv.org/abs/2503.06568)  
-Qiyuan He, Angela Yao
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/rear.png" alt="Conceptrol">
+  </div>
+  <div class="pub-content">
+    <strong>(Preprint 2025) Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
+    <strong>Qiyuan He</strong>, Yicong Li, Haotian Ye, Jinghao Wang, Xinyao Liao, Pheng-Ann Heng, Stefano Ermon, James Zou, Angela Yao<br>
+    <a href="https://arxiv.org/abs/2510.04450">paper</a>
+  </div>
+</div>
 
-![Conceptrol](images/publication/conceptrol.png)
+<!-- <div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/rear.png" alt="Conceptrol">
+  </div>
+  <div class="pub-content">
+    <strong>(On Submission) Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
+    <strong>Qiyuan He</strong>, Yicong Li, Haotian Ye, Jinghao Wang, Xinyao Liao, Pheng-Ann Heng, Stefano Ermon, James Zou, Angela Yao<br>
+    <a href="https://arxiv.org/abs/2510.04450">paper</a>
+  </div>
+</div> -->
 
----
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/conceptrol.png" alt="Conceptrol">
+  </div>
+  <div class="pub-content">
+    <strong>(Preprint 2025) Conceptrol: Concept Control of Zero-shot Personalized Image Generation</strong><br>
+    <strong>Qiyuan He</strong>, Angela Yao<br>
+    <a href="https://arxiv.org/abs/2503.06568">paper</a>
+  </div>
+</div>
 
-**AID: Attention Interpolation of Text-to-Image Diffusion**  
-*NeurIPS 2024* · [Project Page](https://qy-h00.github.io/attention-interpolation-diffusion/)  
-Qiyuan He, Jinghao Wang, Ziwei Liu, Angela Yao
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/paid.png" alt="AID">
+  </div>
+  <div class="pub-content">
+    <strong>(NeurIPS 2024) AID: Attention Interpolation of Text-to-Image Diffusion</strong><br>
+    <strong>Qiyuan He</strong>, Jinghao Wang, Ziwei Liu, Angela Yao<br>
+    <a href="https://qy-h00.github.io/attention-interpolation-diffusion/">project page</a>
+  </div>
+</div>
 
-![AID](images/publication/paid.png)
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/eva.png" alt="EvA">
+  </div>
+  <div class="pub-content">
+    <strong>(ICLR 2025) EvA: Erasing Spurious Correlations with Activations</strong><br>
+    <strong>Qiyuan He</strong>, Kai Xu, Angela Yao<br>
+    <a href="https://openreview.net/forum?id=zKvrOOBouT">paper</a>
+  </div>
+</div>
 
----
-
-**EvA: Erasing Spurious Correlations with Activations**  
-*ICLR 2025* · [Paper](https://openreview.net/forum?id=zKvrOOBouT&referrer=%5Bthe%20profile%20of%20Qiyuan%20He%5D(%2Fprofile%3Fid%3D~Qiyuan_He2))  
-Qiyuan He, Kai Xu, Angela Yao
-
-![EvA](images/publication/eva.png)
-
----
-
-**Analyzing and Diagnosing Pose Estimation With Attributions**  
-*CVPR 2023* · [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf)  
-Qiyuan He*, Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao
-
-![PoseIG](images/publication/poseig.png)
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/poseig.png" alt="PoseIG">
+  </div>
+  <div class="pub-content">
+    <strong>(CVPR 2023) Analyzing and Diagnosing Pose Estimation With Attributions</strong><br>
+    <strong>Qiyuan He</strong>*, Linlin Yang*, Kerui Gu, Qiuxia Lin, Angela Yao<br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf">paper</a>
+  </div>
+</div>
 
 Selected Awards
 ======
 
+- **NUS Research Achievement Award**, 2025
 - **NUS Research Incentive Award**, 2023
 - **Outstanding Undergraduate Researcher Prize**, 2023
 - **Certificate of Distinction in the AI Focus Area**, 2022

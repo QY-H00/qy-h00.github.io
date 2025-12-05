@@ -485,6 +485,66 @@
   color: $text-color-light;
 }
 
+/*
+   Publications
+   ========================================================================== */
+
+.publication {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  padding: 1.25em;
+  background-color: $warm-gray-100;
+  border-radius: $border-radius-lg;
+  transition: $global-transition;
+
+  &:hover {
+    background-color: $warm-gray-200;
+  }
+
+  @include breakpoint(max-width $small) {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+.pub-image {
+  flex-shrink: 0;
+  width: 200px;
+
+  @include breakpoint(max-width $small) {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin: 0;
+  }
+}
+
+.pub-content {
+  flex: 1;
+  font-size: $type-size-6;
+  line-height: 1.6;
+
+  strong {
+    color: $warm-gray-900;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {
