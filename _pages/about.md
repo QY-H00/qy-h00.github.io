@@ -24,6 +24,17 @@ Publications
 
 <div class="publication">
   <div class="pub-image">
+    <img src="images/publication/vapi.png" alt="InfoTok">
+  </div>
+  <div class="pub-content">
+    <strong>(Coming Soon) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
+    Xinyao Liao*, <strong>Qiyuan He*</strong>, Kai Xu, Xiaoye Qu, Yicong Li, Wei Wei, Angela Yao<br>
+    <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
+  </div>
+</div>
+
+<div class="publication">
+  <div class="pub-image">
     <img src="images/publication/infotok.png" alt="InfoTok">
   </div>
   <div class="pub-content">
@@ -38,7 +49,7 @@ Publications
     <img src="images/publication/rear.png" alt="reAR">
   </div>
   <div class="pub-content">
-    <strong>(Preprint 2025) Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
+    <strong>(Preprint 2025) reAR: Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
     <strong>Qiyuan He</strong>, Yicong Li, Haotian Ye, Jinghao Wang, Xinyao Liao, Pheng-Ann Heng, Stefano Ermon, James Zou, Angela Yao<br>
     <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
   </div>
