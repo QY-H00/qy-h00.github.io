@@ -8,15 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second-year PhD student in the School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to this, I received my Honours Bachelor's degree with Highest Distinction, majoring in Computer Science from the same faculty.
+I'm a third-year PhD student in the School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I completed my Honours Bachelor’s degree with Highest Distinction in Computer Science from the same faculty. My research focuses on developing efficient and controllable visual generative models, with an emphasis on improving both training and inference. Please feel free to [contact me](mailto:qhe@u.nus.edu) if you are interested in collaboration.
 
-My research focuses on enhancing the controllability and our understanding of deep learning models, particularly in how they manage and interpret data. I am currently engaged in several projects:
+Before beginning my doctoral studies, I co-founded Huijian Cloud, where we developed AI agent solutions with real-world applicability, including project management systems (PMS), inventory management systems (IMS), and customer relationship management (CRM) platforms. The company has served clients across Mainland China, Malaysia, Thailand, and Australia.
 
-- Applying discrete diffusion to multimodal generation
-- Developing an efficient and scalable video tokenizer
-- Designing an adaptive solver for flow-matching
+<!-- News
+======
 
-Please feel free to [contact me](mailto:qhe@u.nus.edu) if you are interested in collaboration.
+- **2025.01**: 🎉🎉 [EvA](https://openreview.net/forum?id=zKvrOOBouT) is accepted by **ICLR'25**!
+- **2024.09**: 🎉🎉 [AID](https://qy-h00.github.io/attention-interpolation-diffusion/) is accepted by **NeurIPS'24**!
+- **2023.02**: 🎉🎉 [PoseIG](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf) is accepted by **CVPR'23**! -->
 
 Publications
 ======
