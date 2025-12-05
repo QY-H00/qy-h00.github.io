@@ -1,15 +1,17 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST - Notion-inspired
    ========================================================================== */
 
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+  margin-top: 5em; /* Account for fixed header */
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 2em;
+  animation: fadeIn 0.4s ease-out;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -18,9 +20,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include span(9 of 12 last);
+    @include prefix(0 of 12);
+    @include suffix(0 of 12);
   }
 
   .page__inner-wrap {
@@ -36,34 +38,58 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  margin-bottom: 0.5em;
+  font-family: $header-font-family;
+  font-size: $type-size-2;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $warm-gray-900;
+  letter-spacing: -0.02em;
 
   & + .page__meta {
-    margin-top: -0.5em;
+    margin-top: -0.25em;
   }
 }
 
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  color: $text-color-light;
 }
 
 .page__content {
+  h1 {
+    font-size: $type-size-3;
+    margin-top: 2em;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid $border-color;
+  }
 
   h2 {
-    padding-bottom: 0.5em;
+    font-size: $type-size-4;
+    margin-top: 1.75em;
+    padding-bottom: 0.25em;
     border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    font-size: 1.125em;
+    margin-top: 1.5em;
+  }
+
+  h4, h5, h6 {
+    margin-top: 1.25em;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.75;
   }
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 1.25em;
 
-    /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
@@ -73,27 +99,45 @@
   }
 
   a {
+    color: $text-color;
     text-decoration: underline;
+    text-decoration-color: rgba($primary-color, 0.4);
+    text-underline-offset: 2px;
+    transition: $global-transition;
 
     &:hover {
-      text-decoration: underline;
+      color: $primary-color;
+      text-decoration-color: $primary-color;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $box-shadow-lg;
       }
+    }
+  }
+
+  /* Images in content */
+  img {
+    border-radius: $border-radius;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: $global-transition;
+    margin: 0.5em 0 1em;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     }
   }
 
   dt {
     margin-top: 1em;
     font-family: $sans-serif;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   dd {
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
+    color: $text-color-light;
   }
 
   .small {
@@ -105,33 +149,43 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* Lists styling */
+  ul, ol {
+    margin-bottom: 1.25em;
+
+    li {
+      margin-bottom: 0.35em;
+    }
+  }
 }
 
 .page__hero {
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
-  animation: intro 0.3s both;
-  animation-delay: 0.25s;
+  animation: fadeIn 0.3s both;
+  animation-delay: 0.15s;
 
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 4em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: intro 0.3s both;
-    animation-delay: 0.25s;
+    animation: fadeIn 0.3s both;
+    animation-delay: 0.15s;
+    border-radius: $border-radius-lg;
 
     a {
       color: #fff;
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -143,7 +197,7 @@
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 0 1px 4px rgba(#000, 0.3);
     }
 
     .page__lead {
@@ -164,6 +218,7 @@
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  border-radius: $border-radius-lg;
 }
 
 .page__hero-caption {
@@ -171,18 +226,17 @@
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  padding: 2px 5px;
+  padding: 4px 8px;
   color: #fff;
   font-family: $caption-font-family;
   font-size: $type-size-7;
-  background: #000;
+  background: rgba(#000, 0.5);
   text-align: right;
   z-index: 5;
-  opacity: 0.5;
-  border-radius: $border-radius 0 $border-radius 0;
+  border-radius: $border-radius-sm 0 $border-radius-lg 0;
 
   @include breakpoint($large) {
-    padding: 5px 10px;
+    padding: 6px 12px;
   }
 
   a {
@@ -196,8 +250,8 @@
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: 2.5em;
+  padding-top: 1.5em;
   border-top: 1px solid $border-color;
 
   @include breakpoint(max-width $small) {
@@ -215,9 +269,13 @@
 }
 
 .page__share-title {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-family: $sans-serif;
   font-size: $type-size-6;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $text-color-light;
 }
 
 
@@ -227,7 +285,7 @@
 
 .page__meta {
   margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
+  color: $text-color-light;
   font-family: $sans-serif;
   font-size: $type-size-6;
 
@@ -237,13 +295,20 @@
 
   a {
     color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 
@@ -263,16 +328,22 @@
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 6px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 4px 10px;
+  font-size: $type-size-7;
+  font-weight: 500;
   text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
+  color: $text-color;
+  background-color: $warm-gray-100;
+  border: none;
+  border-radius: 999px;
+  transition: $global-transition;
 
   &:hover {
+    background-color: $warm-gray-200;
+    color: $text-color;
     text-decoration: none;
-    color: $link-color-hover;
   }
 }
 
@@ -287,16 +358,17 @@
 
 .page__comments-title {
   margin-top: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   padding-top: 2rem;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
+  font-weight: 600;
   border-top: 1px solid $border-color;
-  text-transform: uppercase;
 }
 
 .page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
+  padding: 1.5em;
+  background: $warm-gray-100;
+  border-radius: $border-radius;
   transition: $global-transition;
 
   &.disabled {
@@ -306,8 +378,6 @@
     label {
       pointer-events: none;
       cursor: not-allowed;
-      filter: alpha(opacity=65);
-      box-shadow: none;
       opacity: 0.65;
     }
   }
@@ -315,7 +385,8 @@
 
 .comment {
   @include clearfix();
-  margin: 1em 0;
+  margin: 1.5em 0;
+  padding-bottom: 1.5em;
 
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
@@ -324,12 +395,12 @@
 
 .comment__avatar-wrapper {
   float: left;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 
   @include breakpoint($large) {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -337,12 +408,11 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
   @include breakpoint($large) {
-    width: 80px;
-    height: 80px;
-    padding: 5px;
-    border: 1px solid $border-color;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -351,21 +421,28 @@
   width: calc(100% - 60px);
 
   @include breakpoint($large) {
-    width: calc(100% - 100px);
+    width: calc(100% - 80px);
   }
 }
 
 .comment__author {
   margin: 0;
+  font-weight: 600;
 
   a {
     text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 
 .comment__date {
   @extend .page__meta;
   margin: 0;
+  font-size: $type-size-7;
 
   a {
     text-decoration: none;
@@ -378,24 +455,44 @@
    ========================================================================== */
 
 .page__related {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: 3em;
+  padding-top: 2em;
   border-top: 1px solid $border-color;
   @include clearfix();
   float: left;
 
   @include breakpoint($large) {
-    @include pre(2.5 of 12);
+    @include pre(0 of 12);
   }
 
   a {
     color: inherit;
     text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: 1em;
+  font-family: $sans-serif;
   font-size: $type-size-6;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $text-color-light;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

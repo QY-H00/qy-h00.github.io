@@ -1,38 +1,84 @@
 /* ==========================================================================
-   TABLES
+   TABLES - Notion-inspired
    ========================================================================== */
 
 table {
-  margin-bottom: 1em;
   width: 100%;
-  font-family: $global-font-family;
+  margin-bottom: 1.5em;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border-spacing: 0;
 
-  & + table {
-    margin-top: 1em;
+  thead {
+    background-color: $warm-gray-100;
+  }
+
+  th {
+    padding: 0.75em 1em;
+    font-weight: 600;
+    text-align: left;
+    color: $text-color;
+    border-bottom: 2px solid $border-color;
+  }
+
+  td {
+    padding: 0.75em 1em;
+    border-bottom: 1px solid $border-color;
+    vertical-align: top;
+  }
+
+  tr {
+    transition: $global-transition;
+
+    &:hover {
+      background-color: $warm-gray-100;
+    }
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
   }
 }
 
-thead {
-  background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+/* Striped table variant */
+table.striped {
+  tbody tr:nth-child(odd) {
+    background-color: rgba($warm-gray-100, 0.5);
+  }
+
+  tbody tr:hover {
+    background-color: $warm-gray-100;
+  }
 }
 
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: left;
-  border-right: 1px solid $light-gray;
+/* Bordered table variant */
+table.bordered {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  th,
+  td {
+    border: 1px solid $border-color;
+  }
 }
 
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid $light-gray;
-  border-right: 1px solid $light-gray;
+/* Compact table variant */
+table.compact {
+  th,
+  td {
+    padding: 0.5em 0.75em;
+  }
 }
 
-tr, td, th {
-  vertical-align: middle;
+/* Responsive table wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5em;
+
+  table {
+    margin-bottom: 0;
+  }
 }
+

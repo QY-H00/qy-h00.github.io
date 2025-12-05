@@ -1,153 +1,142 @@
 /* ==========================================================================
-   BUTTONS
-   ========================================================================== */
-
-/*
-   Default button
+   BUTTONS - Notion-inspired
    ========================================================================== */
 
 .btn {
-  /* default button */
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
-  color: #fff !important;
+  padding: 0.625em 1.25em;
   font-family: $sans-serif;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
+  color: $warm-white;
   background-color: $primary-color;
-  border: 0 !important;
+  border: none;
   border-radius: $border-radius;
   cursor: pointer;
+  transition: $global-transition;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: darken($primary-color, 8%);
+    color: $warm-white;
+    text-decoration: none;
   }
 
-  .icon {
-    margin-right: 0.5em;
+  &:focus {
+    outline: 2px solid rgba($primary-color, 0.4);
+    outline-offset: 2px;
   }
 
-  .icon + .hidden {
-    margin-left: -0.5em; /* override for hidden text*/
+  .icon,
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    margin-right: 0;
   }
 
-  /* fills width of parent container */
-
-  &--block {
-    display: block;
-    width: 100%;
-
-    + .btn--block {
-      margin-top: 0.25em;
-    }
+  /* Button sizes */
+  &--small {
+    padding: 0.4em 0.85em;
+    font-size: $type-size-7;
   }
-
-  /* for dark backgrounds */
-
-  &--inverse {
-    color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
-
-    &:hover {
-      color: #fff !important;
-      border-color: $gray;
-    }
-  }
-
-  /* light outline */
-
-  &--light-outline {
-    border: 1px solid #fff !important; /* override*/
-    background-color: transparent;
-  }
-
-  /* information */
-
-  &--info {
-    background-color: $info-color;
-
-    &:hover {
-      background-color: mix(#000, $info-color, 20%);
-    }
-  }
-
-  /* warning */
-
-  &--warning {
-    background-color: $warning-color;
-
-    &:hover {
-      background-color: mix(#000, $warning-color, 20%);
-    }
-  }
-
-  /* success */
-
-  &--success {
-    background-color: $success-color;
-
-    &:hover {
-      background-color: mix(#000, $success-color, 20%);
-    }
-  }
-
-  /* danger */
-
-  &--danger {
-    background-color: $danger-color;
-
-    &:hover {
-      background-color: mix(#000, $danger-color, 20%);
-    }
-  }
-
-  /* disabled */
-
-  &--disabled {
-    pointer-events: none;
-    cursor: not-allowed;
-    filter: alpha(opacity=65);
-    box-shadow: none;
-    opacity: 0.65;
-  }
-
-  /* social buttons */
-
-  $social:
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color);
-
-  @each $socialnetwork, $color in $social {
-    &--#{$socialnetwork} {
-      background-color: $color;
-
-      &:hover {
-        background-color: mix(#000, $color, 20%);
-      }
-    }
-  }
-
-  /* extra large button */
-
-  &--x-large {
-    font-size: $type-size-4;
-  }
-
-  /* large button */
 
   &--large {
+    padding: 0.75em 1.5em;
     font-size: $type-size-5;
   }
 
-  /* small button */
+  /* Button types */
+  &--primary {
+    background-color: $primary-color;
+    color: $warm-white;
 
-  &--small {
-    font-size: $type-size-7;
+    &:hover {
+      background-color: darken($primary-color, 8%);
+    }
+  }
+
+  &--inverse {
+    background-color: transparent;
+    color: $text-color;
+    border: 1px solid $border-color;
+
+    &:hover {
+      background-color: $warm-gray-100;
+      color: $text-color;
+    }
+  }
+
+  &--light {
+    background-color: $warm-gray-100;
+    color: $text-color;
+
+    &:hover {
+      background-color: $warm-gray-200;
+    }
+  }
+
+  &--success {
+    background-color: $success-color;
+    color: $warm-white;
+
+    &:hover {
+      background-color: darken($success-color, 8%);
+    }
+  }
+
+  &--warning {
+    background-color: $warning-color;
+    color: $warm-white;
+
+    &:hover {
+      background-color: darken($warning-color, 8%);
+    }
+  }
+
+  &--danger {
+    background-color: $danger-color;
+    color: $warm-white;
+
+    &:hover {
+      background-color: darken($danger-color, 8%);
+    }
+  }
+
+  &--info {
+    background-color: $info-color;
+    color: $warm-white;
+
+    &:hover {
+      background-color: darken($info-color, 8%);
+    }
+  }
+
+  /* Disabled state */
+  &--disabled,
+  &:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+/* Block button */
+.btn--block {
+  display: flex;
+  width: 100%;
+}
+
+/* Icon only button */
+.btn--icon {
+  padding: 0.5em;
+  
+  .icon {
+    margin: 0;
   }
 }

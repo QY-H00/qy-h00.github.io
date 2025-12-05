@@ -1,5 +1,5 @@
 /* ==========================================================================
-   FOOTER
+   FOOTER - Notion-inspired
    ========================================================================== */
 
 .page__footer {
@@ -9,27 +9,25 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  /* sticky footer fix start */
+  /* sticky footer fix */
   position: absolute;
-  bottom: 0em;
+  bottom: 0;
   height: auto;
-  /* sticky footer fix end */
-  margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.45s;
-          animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  margin-top: 4em;
+  padding: 2em 0;
+  color: $text-color-light;
+  background-color: $warm-gray-100;
+  border-top: 1px solid $border-color;
+  animation: fadeIn 0.4s ease-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1.5em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -37,11 +35,12 @@
   }
 
   a {
-    color: inherit;
+    color: $text-color-light;
     text-decoration: none;
+    transition: $global-transition;
 
     &:hover {
-      text-decoration: underline;
+      color: $primary-color;
     }
   }
 
@@ -49,13 +48,33 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: $text-color-light;
+    transition: $global-transition;
+  }
+
+  a:hover {
+    .fas,
+    .fab,
+    .far,
+    .fal {
+      color: $primary-color;
+    }
   }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  color: $warm-gray-500;
+  margin-top: 1em;
+
+  a {
+    color: $text-color-light;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
 
 .page__footer-follow {
@@ -63,25 +82,42 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1.5em;
+    align-items: center;
   }
 
   li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    font-family: $sans-serif;
     font-size: $type-size-6;
-    text-transform: uppercase;
   }
 
   li + li:before {
-    content: "";
-    padding-right: 5px;
+    content: none;
   }
 
   a {
-    padding-right: 10px;
-    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-weight: 500;
+    color: $text-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  strong {
+    color: $text-color-light;
+    font-weight: 500;
+    font-size: $type-size-7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .social-icons {

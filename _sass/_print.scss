@@ -2,17 +2,95 @@
    PRINT STYLES
    ========================================================================== */
 
-/*
-   Hide the following elements on print
-   ========================================================================== */
-
 @media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: $type-size-6;
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
   .masthead,
-  .toc,
+  .page__footer,
   .page__share,
   .page__related,
+  .sidebar,
+  .pagination,
   .ads,
-  .page__footer {
+  .comment__form,
+  .social-icons {
     display: none;
+  }
+
+  .page__content {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #main {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .page__inner-wrap {
+    padding: 0 !important;
   }
 }

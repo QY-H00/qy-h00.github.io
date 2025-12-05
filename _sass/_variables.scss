@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Variables
+   Variables - Notion-inspired Design
    ========================================================================== */
 
 /*
@@ -9,92 +9,85 @@
 $doc-font-size              : 16;
 
 /* paragraph indention */
-$paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
+$paragraph-indent           : false;
+$indent-var                 : 1.5em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* Notion-inspired fonts */
+$serif                      : 'Lora', Georgia, 'Times New Roman', serif;
+$sans-serif                 : 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+$monospace                  : 'JetBrains Mono', 'SF Mono', 'Fira Code', Consolas, monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : $sans-serif;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia                    : $serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$header-font-family         : $serif;
+$caption-font-family        : $sans-serif;
 
-/* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
+/* type scale - slightly refined for Notion feel */
+$type-size-1                : 2.5em;    // ~40px - main titles
+$type-size-2                : 2em;      // ~32px 
+$type-size-3                : 1.5em;    // ~24px - h1
+$type-size-4                : 1.25em;   // ~20px - h2
+$type-size-5                : 1em;      // ~16px - body
+$type-size-6                : 0.875em;  // ~14px - small
+$type-size-7                : 0.75em;   // ~12px - tiny
 $type-size-8                : 0.625em;  // ~10px
 
 
 /*
-   Colors
+   Colors - Notion-inspired warm palette
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Base neutrals - warm grays */
+$warm-white                 : #fffcf7;
+$warm-cream                 : #faf8f5;
+$warm-gray-100              : #f7f6f3;
+$warm-gray-200              : #efeeed;
+$warm-gray-300              : #e3e2e0;
+$warm-gray-400              : #c3c2bf;
+$warm-gray-500              : #9b9a97;
+$warm-gray-600              : #6b6a67;
+$warm-gray-700              : #4a4a46;
+$warm-gray-800              : #37352f;
+$warm-gray-900              : #252420;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Semantic colors */
+$body-color                 : $warm-white;
+$background-color           : $warm-white;
+$code-background-color      : $warm-gray-100;
+$code-background-color-dark : $warm-gray-200;
+$text-color                 : $warm-gray-800;
+$text-color-light           : $warm-gray-600;
+$border-color               : $warm-gray-200;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+/* Primary/Accent colors - Notion blue */
+$primary-color              : #2383e2;
+$primary-color-light        : #e7f3ff;
 
-/* brands */
-$behance-color              : #1769FF;
-$dribbble-color             : #ea4c89;
-$facebook-color             : #3b5998;
-$flickr-color               : #ff0084;
-$foursquare-color           : #0072b1;
-$github-color               : #171516;
-$google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
-$lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
-$pinterest-color            : #cb2027;
-$rss-color                  : #fa9b39;
-$soundcloud-color           : #ff3300;
-$stackoverflow-color        : #fe7a15;
-$tumblr-color               : #32506d;
-$twitter-color              : #55acee;
-$vimeo-color                : #1ab7ea;
-$vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
-$xing-color                 : #006567;
+/* Status colors */
+$success-color              : #0f7b6c;
+$warning-color              : #d9730d;
+$danger-color               : #e03e3e;
+$info-color                 : #2383e2;
 
+/* Legacy variables for compatibility */
+$gray                       : $warm-gray-500;
+$dark-gray                  : $warm-gray-700;
+$darker-gray                : $warm-gray-800;
+$light-gray                 : $warm-gray-400;
+$lighter-gray               : $warm-gray-100;
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $warm-gray-800;
+$link-color-hover           : $primary-color;
+$link-color-visited         : $warm-gray-700;
+$masthead-link-color        : $warm-gray-800;
+$masthead-link-color-hover  : $primary-color;
 
 
 /*
@@ -102,19 +95,12 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
+$large                      : 1024px !default;
+$x-large                    : 1200px !default;
 
 /*
    Grid
@@ -133,12 +119,6 @@ $susy: (
   gutter-position: after,
   container: $large,
   global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
 );
 
 
@@ -146,8 +126,11 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 6px;
+$border-radius-sm           : 4px;
+$border-radius-lg           : 12px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+$box-shadow-lg              : 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+$navicon-width              : 24px;
+$navicon-height             : 3px;
+$global-transition          : all 0.15s ease-out;
