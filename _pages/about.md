@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third-year PhD student in the School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I completed my Honours Bachelor’s degree with Highest Distinction in Computer Science from the same faculty. My research focuses on developing efficient and controllable visual generative models, with an emphasis on improving both training and inference. Please feel free to [contact me](mailto:qhe@u.nus.edu) if you are interested in collaboration.
+I'm a third-year PhD student in the School of Computing at [National University of Singapore](https://nus.edu.sg/), advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Prior to it, I completed my Honours Bachelor’s degree with Highest Distinction in Computer Science from the same faculty. My research focuses on developing **efficient and controllable visual-centric models**, with an emphasis on generation. Please feel free to [contact me](mailto:qhe@u.nus.edu) if you are interested in collaboration.
 
 Before beginning my doctoral studies, I co-founded Huijian Cloud, where we developed AI agent solutions with real-world applicability, including PMS, IMS, and CRM platforms. The company has served clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
 
