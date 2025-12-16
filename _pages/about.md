@@ -22,8 +22,8 @@ News
 - **2024.05**: Presented a research talk on generative models at the **Huawei Singapore Harmony Software Technology Workshop**.
 - **2023.10**: Honored to receive the **Research Incentive Award** at NUS!
 - **2023.08**: Began my PhD journey at NUS.
-- **2023.06**: Honored to receive the [NUS Outstanding Undergraduate Researcher Prize](https://www.comp.nus.edu.sg/news/2023-ourp/)!
-- **2023.02**: [PoseIG](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf) accepted to **CVPR 2023**!
+- **2023.06**: Honored to receive the [**NUS Outstanding Undergraduate Researcher Prize**](https://www.comp.nus.edu.sg/news/2023-ourp/)!
+- **2023.02**: [**PoseIG**](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Analyzing_and_Diagnosing_Pose_Estimation_With_Attributions_CVPR_2023_paper.pdf) accepted to **CVPR 2023**!
 
 Publications
 ======
