@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). Previously, I earned my Honours Bachelor’s degree with Highest Distinction in Computer Science from the same faculty. My research is centered on developing **efficient and controllable visual-centric generative models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias.
+I am a third-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by **Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)**. Previously, I am graduated in **Turing Programme** with Highest Distinction in Computer Science from the same faculty. My research is centered on developing **efficient and controllable visual-centric generative models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias.
 
-Before beginning my doctoral studies, I co-founded Huijian Cloud, where we developed AI agent solutions with real-world applicability, including PMS, IMS, and CRM platforms. The company has served clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
+Before beginning my doctoral studies, I co-founded a local company Huijian Cloud in Guangzhou, where we developed AI agent solutions with real-world applicability, including PMS, IMS, and CRM platforms. The company has served clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
 
 News
 ======
@@ -118,7 +118,7 @@ Publications
 
 Selected Awards
 ======
-
+- **NUS Search Commitee Member**, 2025
 - **NUS Research Achievement Award**, 2025
 - **NUS Research Incentive Award**, 2023
 - **Outstanding Undergraduate Researcher Prize**, 2023
