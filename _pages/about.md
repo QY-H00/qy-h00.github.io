@@ -36,7 +36,7 @@ Publications
     <img src="images/publication/vapi.png" alt="InfoTok">
   </div>
   <div class="pub-content">
-    <strong>(Preprint 2025) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
+    <strong>(Preprint 2026) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
     Xinyao Liao*, <strong>Qiyuan He*</strong>, Kai Xu, Xiaoye Qu, Yicong Li, Wei Wei, Angela Yao<br>
     <!-- <a href="https://arxiv.org/abs/2512.19680">paper</a> -->
   </div>
@@ -47,7 +47,7 @@ Publications
     <img src="images/publication/infotok.png" alt="InfoTok">
   </div>
   <div class="pub-content">
-    <strong>(Preprint 2025) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
+    <strong>(ICLR 2026) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
     Haotian Ye*, <strong>Qiyuan He*</strong>, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu<br>
     <!-- <a href="https://arxiv.org/abs/2512.16975">paper</a> -->
   </div>
@@ -58,8 +58,19 @@ Publications
     <img src="images/publication/rear.png" alt="reAR">
   </div>
   <div class="pub-content">
-    <strong>(Preprint 2025) reAR: Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
+    <strong>(ICLR 2026) reAR: Rethinking Visual Autoregressive Models via Token-wise Consistency Regularization</strong><br>
     <strong>Qiyuan He</strong>, Yicong Li, Haotian Ye, Jinghao Wang, Xinyao Liao, Pheng-Ann Heng, Stefano Ermon, James Zou, Angela Yao<br>
+    <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
+  </div>
+</div>
+
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/rear.png" alt="reAR">
+  </div>
+  <div class="pub-content">
+    <strong>(ICLR 2026) Interp3D: Correspondence-aware Interpolation for Generative Textured 3D Morphing</strong><br>
+    Xiaolu Liu, Yicong Li, <strong>Qiyuan He</strong>, Jiayin Zhu, Wei Ji, Angela Yao, Jianke Zhu<br>
     <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
   </div>
 </div>
@@ -121,6 +132,7 @@ Publications
 
 Selected Awards
 ======
+- **NUS Search Commitee Member**, 2026
 - **NUS Search Commitee Member**, 2025
 - **NUS Research Achievement Award**, 2025
 - **NUS Research Incentive Award**, 2023
