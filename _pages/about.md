@@ -14,6 +14,8 @@ Before beginning my doctoral studies, I co-founded a local company Huijian Cloud
 
 News
 ======
+- **2026.02**: Our Work [**InfoTok**](https://arxiv.org/abs/2512.16975) has been selected as **ICLR ORAL**!! We will release our tokenizer checkpoints soon.
+- **2026.01**: [**reAR**](https://arxiv.org/abs/2510.04450) and [**Interp3D**](https://arxiv.org/abs/2601.14103) are accepted by ICLR!
 - **2026.01**: Started my internship with the **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI Team</a>**!
 - **2026.01**: Released [**InfoTok**](https://arxiv.org/abs/2512.16975), a study on efficient video tokenization, in collaboration with NVIDIA Imaginary Lab.
 - **2025.12**: Released two papers on visual autoregressive models: [**VA-π**](https://arxiv.org/abs/2512.19680) and [**reAR**](https://arxiv.org/abs/2510.04450).
@@ -47,7 +49,7 @@ Publications
     <img src="images/publication/infotok.png" alt="InfoTok">
   </div>
   <div class="pub-content">
-    <strong>(ICLR 2026) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
+    <strong>(ICLR 2026 Oral) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
     Haotian Ye*, <strong>Qiyuan He*</strong>, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu<br>
     <!-- <a href="https://arxiv.org/abs/2512.16975">paper</a> -->
   </div>
@@ -66,7 +68,7 @@ Publications
 
 <div class="publication">
   <div class="pub-image">
-    <img src="images/publication/rear.png" alt="reAR">
+    <img src="images/publication/interp3D.png" alt="reAR">
   </div>
   <div class="pub-content">
     <strong>(ICLR 2026) Interp3D: Correspondence-aware Interpolation for Generative Textured 3D Morphing</strong><br>
