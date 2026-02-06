@@ -35,23 +35,24 @@ Publications
 
 <div class="publication">
   <div class="pub-image">
-    <img src="images/publication/vapi.png" alt="InfoTok">
-  </div>
-  <div class="pub-content">
-    <strong>(Preprint 2026) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
-    Xinyao Liao*, <strong>Qiyuan He*</strong>, Kai Xu, Xiaoye Qu, Yicong Li, Wei Wei, Angela Yao<br>
-    <!-- <a href="https://arxiv.org/abs/2512.19680">paper</a> -->
-  </div>
-</div>
-
-<div class="publication">
-  <div class="pub-image">
     <img src="images/publication/infotok.png" alt="InfoTok">
   </div>
   <div class="pub-content">
     <strong>(ICLR 2026 Oral) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong><br>
     Haotian Ye*, <strong>Qiyuan He*</strong>, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu<br>
     <!-- <a href="https://arxiv.org/abs/2512.16975">paper</a> -->
+  </div>
+</div>
+
+
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/vapi.png" alt="InfoTok">
+  </div>
+  <div class="pub-content">
+    <strong>(Preprint 2026) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
+    Xinyao Liao*, <strong>Qiyuan He*</strong>, Kai Xu, Xiaoye Qu, Yicong Li, Wei Wei, Angela Yao<br>
+    <!-- <a href="https://arxiv.org/abs/2512.19680">paper</a> -->
   </div>
 </div>
 
