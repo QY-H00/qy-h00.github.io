@@ -50,7 +50,7 @@ Publications
     <img src="images/publication/vapi.png" alt="InfoTok">
   </div>
   <div class="pub-content">
-    <strong>(Preprint 2026) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
+    <strong>(CVPR 2026) VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</strong><br>
     Xinyao Liao*, <strong>Qiyuan He*</strong>, Kai Xu, Xiaoye Qu, Yicong Li, Wei Wei, Angela Yao<br>
     <!-- <a href="https://arxiv.org/abs/2512.19680">paper</a> -->
   </div>
