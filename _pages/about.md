@@ -78,6 +78,17 @@ Publications
   </div>
 </div>
 
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/relaxflow.png" alt="reAR">
+  </div>
+  <div class="pub-content">
+    <strong>(ICML 2026 Spotlight) RelaxFlow: Text-Driven Amodal 3D Generation</strong><br>
+    Jiayin Zhu, Guoji Fu, Xiaolu Liu, <strong>Qiyuan He</strong>, Yicong Li, Angela Yao<br>
+    <!-- <a href="https://arxiv.org/abs/2510.04450">paper</a> -->
+  </div>
+</div>
+
 <!-- <div class="publication">
   <div class="pub-image">
     <img src="images/publication/rear.png" alt="Conceptrol">
