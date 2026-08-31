@@ -8,12 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by **Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)**. I'm currently also working with **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI</a>** under **Dr. Yuyang Zhao** and **Professor Song Han**. Previously, I am graduated in **Turing Programme** with Highest Distinction in Computer Science from the same faculty. My research goal is to develop **efficient and controllable visual-centric world models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias.
+I am a third-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by **Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)**. During my PhD, I'm also fortunate to work with **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI</a>** under **Dr. Yuyang Zhao** and **Professor Song Han**. I graduated from the same faculty's **Turing Programme** with Highest Distinction in Computer Science.
 
-Before beginning my doctoral studies, I co-founded a local company Inceptoria (previously named Huijian Cloud) in Guangzhou, where we developed AI agent solutions with real-world applicability, including PMS, IMS, and CRM platforms. The company has served clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
+My research goal is to develop **efficient and controllable visual-centric world models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias. **I am currently building something in stealth mode.**
+
+Previously, I co-founded Inceptoria (formerly Huijian Cloud) in Guangzhou, building AI agent systems for clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
 
 News
 ======
+- **2026.08**: We will release our latest work **WoRL** soon.
+- **2026.05**: Released [**SANA-Streaming**](https://nvlabs.github.io/Sana/Streaming/), a real-time streaming video editing framework.
 - **2026.02**: Our Work [**InfoTok**](https://arxiv.org/abs/2512.16975) has been selected as **ICLR ORAL**!! We will release our tokenizer checkpoints soon.
 - **2026.01**: [**reAR**](https://arxiv.org/abs/2510.04450) and [**Interp3D**](https://arxiv.org/abs/2601.14103) are accepted by ICLR!
 - **2026.01**: Started my internship with the **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI Team</a>**!
@@ -32,6 +36,17 @@ News
 
 Publications
 ======
+
+<div class="publication">
+  <div class="pub-image">
+    <img src="images/publication/sana-streaming.png" alt="SANA-Streaming">
+  </div>
+  <div class="pub-content">
+    <strong>(Preprint 2026) SANA-Streaming: Real-time Streaming Video Editing with Hybrid Diffusion Transformer</strong><br>
+    Yuyang Zhao*, Yicheng Pan*, <strong>Qiyuan He*</strong>, Jincheng Yu*, Junsong Chen*, Tian Ye, Haozhe Liu, Enze Xie, Song Han<br>
+    <!-- <a href="https://nvlabs.github.io/Sana/Streaming/">project page</a> -->
+  </div>
+</div>
 
 <div class="publication">
   <div class="pub-image">
