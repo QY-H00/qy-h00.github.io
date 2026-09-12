@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by **Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)**. During my PhD, I'm also fortunate to work with **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI</a>** under **Dr. Yuyang Zhao** and **Professor Song Han**. I graduated from the same faculty's **Turing Programme** with Highest Distinction in Computer Science.
+I am a fourth-year PhD student at the School of Computing, [National University of Singapore](https://nus.edu.sg/), where I am fortunate to be advised by **Professor [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)**. During my PhD, I'm also fortunate to work with **<a href="https://research.nvidia.com/labs/eai/" style="color: #76B900;">NVIDIA Efficient AI</a>** under **Dr. Yuyang Zhao** and **Professor Song Han**. I graduated from the same faculty's **Turing Programme** with Highest Distinction in Computer Science. My research goal is to develop **efficient and controllable visual-centric world models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias. **I am currently building something new.**
 
-My research goal is to develop **efficient and controllable visual-centric world models**. I am particularly interested in understanding and modeling visual signals, as they are easy to obtain and can serve as observations of the real world with minimal inductive bias. **I am currently building something in stealth mode.**
-
-Previously, I co-founded Inceptoria (formerly Huijian Cloud) in Guangzhou, building AI agent systems for clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
+Prior to doing research, I co-founded Inceptoria (formerly Huijian Cloud) in Guangzhou, building AI agent systems for clients across Mainland China, Malaysia, Thailand, and Australia. I was also a Fellow of [MiraclePlus](https://www.miracleplus.com/) in 2021.
 
 News
 ======
